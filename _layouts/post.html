@@ -1,9 +1,35 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-{{ content }}
-</div>
+<div class="top-strip"></div>
+<main class="content">
+    <section class="container">
+    	<div class="row-fluid">
+            {% include gnb.html %}
+<!--
+    		<article class="home-icon">
+				<a href="/">
+					<i class="icon-home"></i> 
+				</a>
+			</article>
+-->
+			<article class="post">
+                <h5 class="post-date">{{ page.date | date: "%Y.%m.%d %H:%M" }}</h5>
+				<h3 class="content">{{page.title}}</h3>
+				<section>
+					{{ content }}
+					<hr>
+				</section>
+				<section style="font-weight:bold; margin-bottom: 2em;">
+					{% if page.previous %} 
+							<a rel="prev" class="a-hover"href="{{ page.previous.url }}"><i class="icon-double-angle-left"></i> {{ page.previous.title }}</a>
+						{% endif %}
+						{% if page.next %} 
+							<a rel="next" style="float:right" class="a-hover"href="{{ page.next.url }}">{{ page.next.title }} <i class=" icon-double-angle-right"></i></a>
+					{% endif %}
+				</section>
+			</article>
+		</div>
+	</section>
+</main>

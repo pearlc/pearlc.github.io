@@ -197,7 +197,7 @@ main.container, main.content > .container{
         @extend .a-hover;
     }
 
-    h2{
+    h2.page-title{
 //        font-family: Georgia, 'Times New Roman', Times, serif;
         font-family: Verdana, 'Apple SD Gothic Neo', '맑은 고딕', 'Malgun Gothic', dotum;
         font-size: 1.6em;

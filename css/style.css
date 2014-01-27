@@ -1857,13 +1857,13 @@ main.container, main.content > .container {
 .center-txt, .content h1, .pages, .home-icon, footer .container {
   text-align: center; }
 
-.a-hover, .entries h2, .entries a, .home-icon a, .gnb a, .post h3, .post h2 {
+.a-hover, .entries h2, .entries a, .home-icon a, .gnb a, .post h3, .post h2.page-title {
   color: #333333;
   -webkit-transition: 0.3s linear;
   -moz-transition: 0.3s linear;
   -o-transition: 0.3s linear;
   transition: 0.3s linear; }
-  .a-hover:hover, .entries h2:hover, .entries a:hover, .home-icon a:hover, .gnb a:hover, .post h3:hover, .post h2:hover {
+  .a-hover:hover, .entries h2:hover, .entries a:hover, .home-icon a:hover, .gnb a:hover, .post h3:hover, .post h2.page-title:hover {
     color: #333333;
     text-decoration: none;
     opacity: 0.5;
@@ -1943,7 +1943,7 @@ main.container, main.content > .container {
 .post h3 {
   font-family: Verdana, 'Apple SD Gothic Neo', '맑은 고딕', 'Malgun Gothic', dotum;
   font-size: 1.6em; }
-.post h2 {
+.post h2.page-title {
   font-family: Verdana, 'Apple SD Gothic Neo', '맑은 고딕', 'Malgun Gothic', dotum;
   font-size: 1.6em;
   margin-bottom: 1.2em; }

@@ -3,7 +3,7 @@ layout: post
 title:  "window.onload를 대체하는 jquery의 ready 함수"
 categories: programming javascript
 date:   2011-03-21 00:41:39
-tags:   javascript onload jquery ready
+tags:   javascript,onload,jquery,ready, 자바스크립트, 제이쿼리
 ---
 
 window.onload 함수는 웹페이지의 로딩이 끝나는 시점에 실행되는 함수다

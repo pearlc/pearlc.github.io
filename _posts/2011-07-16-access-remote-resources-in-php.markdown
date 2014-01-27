@@ -3,7 +3,7 @@ layout: post
 title:  "php로 웹상의 파일 읽기(원격 리소스 읽기)"
 categories: programming php
 date:   2011-07-16 18:08:26
-tags:   curl, fsockopen, file_get_content, fopen, 소켓통신
+tags:   curl, fsockopen, file_get_content, fopen, 소켓통신, 원격, 파일, 읽기, 컬
 ---
 
 이 글은 <http://www.php-mysql-tutorial.com/wikis/php-tutorial/reading-a-remote-file-using-php.aspx>에 있는 글을 번역한 것입니다
@@ -78,7 +78,7 @@ if ($fp = fopen('http://www.google.com/', 'r')) {
 
 만약 함수호출 비용과 시간을 고려중이라면 첫번째 방법이 확실히 나은 방법이다
 
-### 2. `file_get_contents()` 함수 사용
+### 2. file_get_contents() 함수 사용
 
 가장 간단해서 내가 가장 선호하는 방법이다. 단지 파라메터를 url로 주고 함수를 호출하기만 하면 된다. 한가지 기억해야할 점은 리턴받은 값을 사용하기 전에 error가 리턴 됬는지 확인 먼저 해야한다는 것.
 

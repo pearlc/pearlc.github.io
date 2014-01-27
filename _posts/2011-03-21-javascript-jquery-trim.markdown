@@ -3,7 +3,7 @@ layout: post
 title:  "jQuery와 javascript 에서의 trim() 함수"
 categories: programming javascript
 date:   2011-03-21 00:46:23
-tags:   jquery, javascript, trim
+tags:   jquery, javascript, trim, 제이쿼리, 자바스크립트, 문자열, 공백제거
 ---
 
 대부분의 프로그래밍 언어에서 `trim()` 함수는 문자열 앞과 뒤 공백을 제거하는 함수이다. 하지만 javascript 에서는 기본적으로 이 함수를 제공하지 않는데, 이 때문에 jquery의 `trim()`이 많이 사용된다

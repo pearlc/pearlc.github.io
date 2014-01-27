@@ -3,7 +3,7 @@ layout: post
 title:  "워드프레스(wordpress)에서 지킬(jekyll)로 갈아타다"
 date:   2014-01-26 23:00:00
 categories: life
-tags:   wordpress, jekyll, migrate, jinolog
+tags:   wordpress,jekyll,migrate,jinolog,워드프레스,지킬
 ---
 
 새해가 한달 가까이 지났지만 그래도 새해가 왔으니 뭔가 변화를 줘야겠다는 생각이 들어서 주기적으로 프로그래밍 글을 써보기로 마음을 먹었다.

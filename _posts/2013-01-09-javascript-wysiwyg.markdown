@@ -3,7 +3,7 @@ layout: post
 title:  "자바스크립트 위지윅(WYSIWYG) 에디터"
 categories: programming javascript
 date:   2013-01-09 01:07:58
-tags: javascript-wysiwyg-editor, ckeditor, tinymce, redactor, 자바스크립트에디터
+tags: javascript-wysiwyg-editor, ckeditor, tinymce, redactor, 자바스크립트, 위지윅,에디터
 ---
 
 요즘 쓸만한 자바스크립트 위지윅 에디터를 찾고 있는데, 여기저기 알아본 결과 2013년 1월 현재 쓸만한 에디터는 대략 아래의 3개로 압축되는것 같다.

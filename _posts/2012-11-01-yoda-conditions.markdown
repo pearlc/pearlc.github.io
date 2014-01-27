@@ -3,7 +3,7 @@ layout: post
 title:  "요다 조건문"
 categories: programming etc
 date:   2012-11-01 21:14:37
-tags:   yoda conditions
+tags:   yoda,conditions, 요다, 조건문
 ---
 
 요다 조건문이란?

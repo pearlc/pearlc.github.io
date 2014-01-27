@@ -3,7 +3,7 @@ layout: post
 title:  "웹브라우저 user-agent string 의 역사"
 categories: programming etc
 date:   2011-10-17 12:51:14
-tags:   browser, user-agent-string, netscape, internet-explorer, mozilla, mosaic, opera, safari, firefox, chrome, webkit, gecko, khtml, 브라우저
+tags:   browser,user-agent, user-agent-string, netscape, internet-explorer, mozilla, mosaic, opera, safari, firefox, chrome, webkit, gecko, khtml, 브라우저, 역사
 ---
 
 이 글은 <http://webaim.org/blog/user-agent-string-history/> 의 글을 번역한 것입니다. 

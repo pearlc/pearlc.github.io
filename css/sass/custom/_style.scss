@@ -108,11 +108,12 @@ main.container, main.content > .container{
         letter-spacing: 0.1em;
     }
 
-    h3{
+    h2{
 //        font-family: Georgia, 'Times New Roman', Times, serif;
         font-family: Verdana, 'Apple SD Gothic Neo', '맑은 고딕', 'Malgun Gothic', dotum;
         font-size: 2em;
         margin-top: 0.2em;
+        margin-bottom: 0em;
         @extend .a-hover;
     }
 
@@ -172,7 +173,7 @@ main.container, main.content > .container{
 
 .post{
     .post-date{
-        font-size: 12px;
+        font-size: 0.8em;
         text-align: left;
 //         @extend .center-txt;
 //        margin:5em 0 -6em 0;
@@ -182,25 +183,35 @@ main.container, main.content > .container{
 //        letter-spacing: 0.6em;
     }
     
+    h4{
+        margin-top: 1.2em;
+        font-size:1.1em;
+    }
+    
     h3{
 //        font-family: Georgia, 'Times New Roman', Times, serif;
         font-family: Verdana, 'Apple SD Gothic Neo', '맑은 고딕', 'Malgun Gothic', dotum;
-        font-size: 2em;
-        margin-top: 0.2em 0 1em 0;
+        font-size: 1.6em;
+//        margin-bottom: 1.2em;
+//        margin-top: 0.2em 0 1em 0;
         @extend .a-hover;
     }
 
     h2{
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        @extend .center-txt;
-        font-size: 5em;
-        padding: 1.5em 0 0.5em;
-        letter-spacing: 0.05em;
+//        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Verdana, 'Apple SD Gothic Neo', '맑은 고딕', 'Malgun Gothic', dotum;
+        font-size: 1.6em;
+        margin-bottom: 1.2em;
+        @extend .a-hover;
     }
-
+    
     section{
         font-family: Verdana, 'Apple SD Gothic Neo', '맑은 고딕', 'Malgun Gothic', dotum;
         line-height: 1.9em;
+    }
+    
+    div {
+//        margin: 0 0 10px;
     }
 }
 

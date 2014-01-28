@@ -3,7 +3,7 @@ layout: post
 title:  "mysql 쿼리의 hint 옵션"
 categories: programming mysql
 date:   2011-07-04 01:26:05
-tags:   mysql, hint
+tags:   mysql, hint, 힌트
 ---
 
 5.1 버전 이후의 MySQL 쿼리 실행시, 특정 index 를 사용하도록(혹은 사용하지 않도록) 옵션을 지정해서 명시할수가 있다.

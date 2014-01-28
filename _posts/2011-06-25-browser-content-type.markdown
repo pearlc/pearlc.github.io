@@ -3,7 +3,7 @@ layout: post
 title:  "브라우저의 content type 인식 문제"
 categories: programming etc
 date:   2011-06-25 13:40:55
-tags:   browser, xml, content-type-header, text/xml, mimetype
+tags:   browser, xml, content-type-header, text/xml, mimetype, 브라우저, 컨텐트타입, mime타입
 ---
 
 온라인 상에 있는 xml 파일을 url로 열때, 일부 브라우저에서 아래 화면과 같이 xml 태그가 html 태그로 해석되어 나타나는 경우가 있다

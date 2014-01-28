@@ -3,7 +3,7 @@ layout: post
 title:  "DOM 객체에 동적으로 추가된 이벤트 핸들러 제거하는 방법"
 categories: programming javascript
 date:   2011-03-21 00:50:34
-tags:   javascript, jquery, event,handler, unbind, die, undelegate, off, 자바스크립트, 제이쿼리
+tags:   javascript, jquery, event,handler, unbind, die, undelegate, off, 자바스크립트, 제이쿼리, 이벤트, 핸들러, 제거
 ---
 
 jQuery의 `bind()`, `live()`, `delegate()` 함수를 사용해서 이벤트 핸들러를 등록하는 경우, 각각 `unbind()`, `die()`, `undelegate()` 함수를 사용해서 이벤트 핸들러를 삭제할수 있다.

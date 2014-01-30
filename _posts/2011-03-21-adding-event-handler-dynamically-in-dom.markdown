@@ -4,7 +4,7 @@ title:  "DOM 객체에 동적으로 이벤트 핸들러 추가하는 방법"
 categories: programming javascript
 date:   2011-03-21 00:49:28
 tags:   javascript,jquery,dom,event,handler,dynamic,bind,live, delegate, on, 이벤트, 핸들러, 동적, 제이쿼리, 자바스크립트
-alias:  
+alias:  /index.php/2011/03/21/html-%EA%B0%9D%EC%B2%B4%EC%97%90-%EB%8F%99%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%ED%95%B8%EB%93%A4%EB%9F%AC-%EC%B6%94%EA%B0%80%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
 ---
 
 jQuery를 이용해서 동적으로 이벤트 핸들러를 추가하기 위해서 `bind()`, `live()`, `delegate()` 과 같은 함수를 사용할수 있다

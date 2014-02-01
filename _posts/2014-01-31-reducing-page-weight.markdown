@@ -3,7 +3,7 @@ layout: post
 title:  "가벼운 웹사이트 만들기"
 categories: programming 
 date:   2014-01-31 00:49:28
-tags:   
+tags:   reducing,page,weight,가벼운,웹사이트,만들기,캐싱,gzip,빠른,css,js,minifier,datauri,이미지,최적화,image,optimization,pingdom,jslint,Sass,LESS,Stylus,Grunt.js,Gulp,Koala, Inkscape
 ---
 sitepoint에 [가벼운 웹사이트 만들기 4부작](http://www.sitepoint.com/series/reducing-page-weight/) 글이 올라와서 이에 대해 간략히 정리하고자 한다.
 
